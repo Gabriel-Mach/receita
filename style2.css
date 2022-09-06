@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  royalblue;
+}
+
+.caixa{
+    height: 200px;
+    width: 200px;
+    background: fixed;
+    background-color: rgb(119, 13, 13);
+    padding-left: center;
+    margin-top: 400px;
+    margin-left: 500px;
+    padding-top: center;
+    transition: all 0.5s;
+}
+.caixa:hover{
+    background-color: whitesmoke;
+    border-radius: 500px;
+    right: 500px; position:absolute;
+
+}
